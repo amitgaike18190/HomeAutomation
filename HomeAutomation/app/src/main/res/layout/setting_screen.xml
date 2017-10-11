@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/hedaerView"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="Settings"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Threshold Value (°C)"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/thresholdValue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer Value (Minutes)"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/timerValueEditText"/>
+    </LinearLayout>
+
+
+
+
+   <!-- <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/savebutton" />
+
+
+    <Button
+        android:text="Server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:layout_margin="20dp"
+        android:id="@+id/serverbutton" />
+-->
+
+
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Access Key Here"
+        android:ems="10"
+        android:id="@+id/AccessKey" />-->
+
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/savebutton" />
+</LinearLayout>

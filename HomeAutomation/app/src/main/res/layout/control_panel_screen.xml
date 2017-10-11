@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iot.fragments.ControlPanelActivity"
+    tools:actionBarNavMode="list">
+
+    <RelativeLayout
+        android:id="@+id/hedaerView"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="Home Automation Demo"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/settingView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/settings_icon"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center" />
+        </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/home_automation_background"
+        android:layout_below="@+id/hedaerView"
+        android:id="@+id/backgroundImageView" />
+
+    <!--<ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#2fa89f"
+        android:src="@drawable/heating_control_off"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/backgroundImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/backgroundImageView"
+        android:background="#c1c1c1"
+        android:id="@+id/lLayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="..."
+            android:textColor="#259cef"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@drawable/humidity"
+            android:layout_below="@+id/lbtnLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:id="@+id/HumidityBtn" />
+        <Button
+            android:text="..."
+            android:textColor="#259cef"
+            android:paddingBottom="15dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/coldness"
+            android:layout_below="@+id/lbtnLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:id="@+id/TemperatureBtn"
+            android:layout_weight="0.3" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="match_parent"
+        android:background="@drawable/secured"
+        android:id="@+id/securedImageView" />
+
+    </LinearLayout>
+    <!--<TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="50dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/tempratureTextView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lLayout"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="22dp"
+        android:textColor="#ffffff"
+        android:id="@+id/humidityTextView" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="10dp"
+        android:layout_below="@+id/lLayout"
+        android:id="@+id/lbtnLayout"
+        android:orientation="horizontal"
+        >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:padding="5dp"
+        android:src="@drawable/cold_icon"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/lbtnLayout" />
+
+        <Switch
+            android:text="HVAC Status"
+            android:textSize="15dp"
+            android:paddingLeft="0dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingRight="30dp"
+            android:id="@+id/heating_control"
+            android:layout_weight="0.6" />
+    </LinearLayout>
+</RelativeLayout>

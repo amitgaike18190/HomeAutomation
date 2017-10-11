@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.12.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16f844ac918f5b50050fd8f637fa1463e2099fb0">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/org.altbeacon-android-beacon-library-2.12.2_cfdf465f67154677c48b97563be3d6ae912fdc5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_d44c35034ddbd4a2afd23a8e545008ba061d6f60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_d33861530fed2884e89dccc25d3119f9a1c6ee0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_c85c450fb9261d36b018b10986968b657092ed32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_61d3e47802ea6ea19340064c272af9bad74f0789.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_04889e5fc2a2898ba9040622a4ea0696a9c26274.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_4b9935fab8d8316b146c513cb7a8753f301a10bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_b68fa3d5c160d5d5bad12eb8c213524d82f618c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/libs/aws-android-sdk-iot-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6ec9edc175aa773874970436f36e23137fe14f6">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/aws-android-sdk-iot-2.3.8_6d379925d6cd1abcb543b8923b4302bef60ecd04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/gson-2.2.4_d0ce76b63ce905fbab3c5d385c8e1b8692010f19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/libs/aws-android-sdk-core-2.3.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d13e83993dd6bd6984f348e54b8d11ba0b40cc2">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/aws-android-sdk-core-2.3.8_d67c3fd18bc3a453218a0f71c4c5dc96195c50ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/amit.gaike/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/amit.gaike/Downloads/Amit/Source Codes/REFERENCE_IMPLEMENTATION/HomeAutomationUseCase/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_bd19b86e79d46714bcb42c3e03014b5075bdcce9.jar" />
+    </item>
+
+</items>

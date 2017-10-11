@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/itemDetailContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/itemNameTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:id="@+id/itemStatusTextView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:id="@+id/racTextView"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/vehicleTextView"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Way To Destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/itemNameTextView"
+        android:layout_below="@+id/itemPicture"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:src="@drawable/rack1"
+        android:layout_marginTop="19dp"
+        android:id="@+id/itemPicture"
+        android:layout_below="@+id/hedaerView"
+        android:layout_alignLeft="@+id/itemDetailContainer"
+        android:layout_alignStart="@+id/itemDetailContainer"
+        tools:layout_height="300dp"
+        android:layout_alignRight="@+id/itemDetailContainer"
+        android:layout_alignEnd="@+id/itemDetailContainer"
+        android:layout_height="350dp" />
+
+    <RelativeLayout
+        android:id="@+id/hedaerView"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_centerInParent="true"
+            android:text="Items To Relocate"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:autoText="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

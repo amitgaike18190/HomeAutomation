@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Home Automation</string>
+    <string name="title_activity_post_login">PostLoginActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="saved_score">SettingActivity</string>
+    <string name="saved_score_default">SettingActivity</string>
+    <string name="threshod_value">ThreshodValue</string>
+    <string name="timer_value">TimerValue</string>
+    <string name="sharedprefferencename">SettingActivity</string>
+    <string name="preference_file_key">SettingActivity</string>
+
+
+
+
+
+
+
+</resources>
